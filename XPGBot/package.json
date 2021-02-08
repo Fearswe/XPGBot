@@ -1,0 +1,13 @@
+{
+  "name": "xpgbot",
+  "version": "0.0.0",
+  "description": "XPGBot",
+  "main": "app.js",
+  "author": {
+    "name": "Fearswe"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "gamedig": "^2.0.25"
+  }
+}
