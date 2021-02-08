@@ -35,6 +35,7 @@
     <Content Include="botconfig.json">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="xpgbot.service" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
 </Project>

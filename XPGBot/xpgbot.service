@@ -1,0 +1,14 @@
+[Unit]
+Description=XPGBot
+
+[Service]
+ExecStart=/usr/bin/nodejs /opt/xpgbot/app.js
+Restart=always
+User=bot
+Group=nogroup
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/opt/xpgbot/
+
+[Install]
+WantedBy=multi-user.target
